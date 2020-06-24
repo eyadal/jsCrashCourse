@@ -11,10 +11,10 @@ console.log()
 
 // String, Numbers, Boolean, null, undefined
 const name = 'John Doe'
-const age = 20
+const age = 21
 const rating = 4.5
 const isCool = true
-const x = null  
+const x = null
 const y = undefined
 let z;
 
