@@ -39,4 +39,7 @@ fruits.push('mangos');
 fruits.unshift('strawberry');
 // unshift() throw item first in array
 
+fruits.pop()
+// pop() delete the last item
+
 console.log(fruits)
