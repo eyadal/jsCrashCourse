@@ -95,4 +95,7 @@ const todos = [
         isCompleted: false
     }
 ]
-console.log(todos[1].text)
+
+// convert code to JSON in the script
+const todoJSON = JSON.stringify(todos)
+console.log(todoJSON)
