@@ -43,4 +43,7 @@ fruits.pop()
 // pop() delete the last item
 console.log(Array.isArray(fruits))
 // isArray() to check if array is true or false
+
+console.log(fruits.indexOf('oranges'))
+// indexOf() to get the index of the item.
 console.log(fruits)
