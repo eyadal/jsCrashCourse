@@ -119,3 +119,8 @@ while (i < 10) {
 for (let i = 0; i < todos.length; i++) {
     console.log(todos[i].text)
 }
+
+// for of loop (easier way to loop threw arrays)
+for (let todo of todos) {
+console.log(todo.text)
+}
