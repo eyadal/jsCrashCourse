@@ -25,10 +25,12 @@ let z;
 // Template String new way 
 const hello = `My name is ${name} and I am ${age} years`
 // console.log()
-
+//========================================================================//
 const s = 'Hello World'
 // console.log(s.substring(0, 1))
 
+
+//========================================================================//
 // Arrays - Variables that hold a multiply values
 
 // const numbers = new Array(1,2,3,4,5)
@@ -41,9 +43,31 @@ fruits.unshift('strawberry');
 
 fruits.pop()
 // pop() delete the last item
-console.log(Array.isArray(fruits))
+// console.log(Array.isArray(fruits))
 // isArray() to check if array is true or false
 
-console.log(fruits.indexOf('oranges'))
+// console.log(fruits.indexOf('oranges'))
 // indexOf() to get the index of the item.
-console.log(fruits)
+// console.log(fruits)
+
+//========================================================================//
+// Object literals = key values
+
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    hobbies: ['music', 'movies', 'sports'],
+    //embedded object = object in antother object
+    address: {
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+
+    }
+}
+console.log(person.firstName, person.lastName)
+console.log(person.hobbies[1])
+console.log(person.address.city)
+const  {firstName, lastName} = person
+console.log(firstName, lastName)
