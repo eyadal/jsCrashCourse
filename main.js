@@ -98,4 +98,10 @@ const todos = [
 
 // convert code to JSON in the script
 const todoJSON = JSON.stringify(todos)
-console.log(todoJSON)
+// console.log(todoJSON)
+
+//========================================================================//
+// For Loop
+for (let i = 0; i < 10; i++) {
+console.log(`For Loop Number: ${i}`)
+}
