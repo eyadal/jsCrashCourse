@@ -24,7 +24,14 @@ let z;
 
 // Template String new way 
 const hello = `My name is ${name} and I am ${age} years`
-console.log()
+// console.log()
 
 const s = 'Hello World'
-console.log(s.substring(0, 1))
+// console.log(s.substring(0, 1))
+
+// Arrays - Variables that hold a multiply values
+
+// const numbers = new Array(1,2,3,4,5)
+const fruits = ['apples', 'oranges', 'bananas']
+fruits.push('mangos')
+console.log(fruits)
