@@ -109,7 +109,13 @@ for (let i = 0; i < 10; i++) {
 // While loop
 let i = 0
 while (i < 10) {
-    console.log(`While Loop Number: ${i}`)
+    // console.log(`While Loop Number: ${i}`)
     // make sure to make a i++ so its not keep looping
     i++
+}
+
+//========================================================================//
+// For Loop throw Arrays
+for (let i = 0; i < todos.length; i++) {
+    console.log(todos[i].text)
 }
