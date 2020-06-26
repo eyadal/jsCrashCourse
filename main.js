@@ -33,5 +33,10 @@ const s = 'Hello World'
 
 // const numbers = new Array(1,2,3,4,5)
 const fruits = ['apples', 'oranges', 'bananas']
-fruits.push('mangos')
+fruits.push('mangos');
+// push() throw in item last in array
+
+fruits.unshift('strawberry');
+// unshift() throw item first in array
+
 console.log(fruits)
