@@ -66,8 +66,8 @@ const person = {
 
     }
 }
-console.log(person.firstName, person.lastName)
-console.log(person.hobbies[1])
-console.log(person.address.city)
-const  {firstName, lastName} = person
-console.log(firstName, lastName)
+// console.log(person.firstName, person.lastName)
+// console.log(person.hobbies[1])
+// console.log(person.address.city)
+const  {firstName, lastName, address: {city}} = person
+console.log(city)
