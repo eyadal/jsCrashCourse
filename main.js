@@ -73,7 +73,7 @@ person.email = 'test123@gmail.com'
 // console.log(person.firstName, person.lastName)
 // console.log(person.hobbies[1])
 // console.log(person.address.city)
-const  {firstName, lastName, address: {city}} = person
+const { firstName, lastName, address: { city } } = person
 // console.log(person)
 
 //========================================================================//
@@ -103,5 +103,13 @@ const todoJSON = JSON.stringify(todos)
 //========================================================================//
 // For Loop
 for (let i = 0; i < 10; i++) {
-console.log(`For Loop Number: ${i}`)
+    // console.log(`For Loop Number: ${i}`)
+}
+
+// While loop
+let i = 0
+while (i < 10) {
+    console.log(`While Loop Number: ${i}`)
+    // make sure to make a i++ so its not keep looping
+    i++
 }
