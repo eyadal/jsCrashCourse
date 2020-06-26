@@ -41,5 +41,6 @@ fruits.unshift('strawberry');
 
 fruits.pop()
 // pop() delete the last item
-
+console.log(Array.isArray(fruits))
+// isArray() to check if array is true or false
 console.log(fruits)
